@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper Project</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            margin-top: 20px;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Book Data Web Scraper</h1>
+
+    <p>
+        This project scrapes book information from a website
+        using Python, Requests, BeautifulSoup, and Pandas.
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Price</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>A Light in the Attic</td>
+                <td>£51.77</td>
+                <td>In Stock</td>
+            </tr>
+
+            <tr>
+                <td>Tipping the Velvet</td>
+                <td>£53.74</td>
+                <td>In Stock</td>
+            </tr>
+
+            <tr>
+                <td>Soumission</td>
+                <td>£50.10</td>
+                <td>In Stock</td>
+            </tr>
+
+            <tr>
+                <td>Sharp Objects</td>
+                <td>£47.82</td>
+                <td>In Stock</td>
+            </tr>
+
+            <tr>
+                <td>Sapiens</td>
+                <td>£54.23</td>
+                <td>In Stock</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>
